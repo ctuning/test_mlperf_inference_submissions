@@ -19,6 +19,8 @@ cm rm cache -f
 cm pull repo mlcommons@mlperf-automations
 
 cm run script \
+	run \
+	script \
 	--tags=run-mlperf,inference,_submission,_short \
 	--submitter=MLCommons \
 	--hw_name=gh_macos-latest_x86 \
@@ -29,7 +31,7 @@ cm run script \
 	--scenario=Offline \
 	--test_query_count=500 \
 	--target_qps=1 \
-	-v \
+	--v \
 	--quiet
 ```
 *Note that if you want to use the [latest automation recipes](https://docs.mlcommons.org/inference) for MLPerf (CM scripts),
@@ -52,4 +54,4 @@ Model Precision: fp32
 `acc`: `76.0`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per second`: `22.8079`
+`Samples per second`: `16.7393`
