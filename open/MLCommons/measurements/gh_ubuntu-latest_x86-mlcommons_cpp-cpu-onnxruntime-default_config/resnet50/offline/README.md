@@ -2,7 +2,7 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-1020-azure-x86_64-with-glibc2.39
+* OS version: Linux-6.8.0-1017-azure-x86_64-with-glibc2.39
 * CPU version: x86_64
 * Python version: 3.12.8 (main, Dec  4 2024, 06:20:31) [GCC 13.2.0]
 * MLCommons CM version: 3.5.3
@@ -19,6 +19,8 @@ cm rm cache -f
 cm pull repo mlcommons@mlperf-automations
 
 cm run script \
+	run \
+	script \
 	--tags=run-mlperf,inference,_submission,_short \
 	--submitter=MLCommons \
 	--hw_name=gh_ubuntu-latest_x86 \
@@ -29,7 +31,7 @@ cm run script \
 	--scenario=Offline \
 	--test_query_count=500 \
 	--target_qps=1 \
-	-v \
+	--v \
 	--quiet
 ```
 *Note that if you want to use the [latest automation recipes](https://docs.mlcommons.org/inference) for MLPerf (CM scripts),
@@ -52,4 +54,4 @@ Model Precision: fp32
 `acc`: `76.0`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per second`: `23.0387`
+`Samples per second`: `23.0584`
