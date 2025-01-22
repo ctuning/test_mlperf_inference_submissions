@@ -1,0 +1,72 @@
+DeepSparse, Copyright 2021-present / Neuralmagic, Inc. version: 1.8.0 COMMUNITY | (e3778e93) (release) (optimized) (system=neon, binary=neon)
+2025-01-22 15:25:42 deepsparse.utils.onnx INFO     Generating input 'input_ids', type = int64, shape = [1, 384]
+2025-01-22 15:25:42 deepsparse.utils.onnx INFO     Generating input 'attention_mask', type = int64, shape = [1, 384]
+2025-01-22 15:25:42 deepsparse.utils.onnx INFO     Generating input 'token_type_ids', type = int64, shape = [1, 384]
+================================================
+MLPerf Results Summary
+================================================
+SUT name : PySUT
+Scenario : Offline
+Mode     : PerformanceOnly
+Samples per second: 7.05543
+Result is : VALID
+  Min duration satisfied : Yes
+  Min queries satisfied : Yes
+  Early stopping satisfied: Yes
+
+================================================
+Additional Stats
+================================================
+Min latency (ns)                : 112596334
+Max latency (ns)                : 708673875
+Mean latency (ns)               : 376437958
+50.00 percentile latency (ns)   : 349836250
+90.00 percentile latency (ns)   : 708673875
+95.00 percentile latency (ns)   : 708673875
+97.00 percentile latency (ns)   : 708673875
+99.00 percentile latency (ns)   : 708673875
+99.90 percentile latency (ns)   : 708673875
+
+================================================
+Test Parameters Used
+================================================
+samples_per_query : 5
+target_qps : 1
+target_latency (ns): 0
+max_async_queries : 1
+min_duration (ms): 0
+max_duration (ms): 0
+min_query_count : 1
+max_query_count : 5
+qsl_rng_seed : 6023615788873153749
+sample_index_rng_seed : 15036839855038426416
+schedule_rng_seed : 9933818062894767841
+accuracy_log_rng_seed : 0
+accuracy_log_probability : 0
+accuracy_log_sampling_target : 0
+print_timestamps : 0
+performance_issue_unique : 0
+performance_issue_same : 0
+performance_issue_same_index : 0
+performance_sample_count : 10833
+
+No warnings encountered during test.
+
+2 ERRORS encountered. See detailed log.
+Loading ONNX model... /Users/runner/CM/repos/local/cache/4025ce5fc0994c1c/oBERT-Large_95sparse_block4_qat.onnx
+Constructing SUT...
+Finished constructing SUT.
+Constructing QSL...
+No cached features at 'eval_features.pickle'... converting from examples...
+Creating tokenizer...
+Reading examples...
+Converting examples to features...
+Caching features at 'eval_features.pickle'...
+Finished constructing QSL.
+Warming up engine...
+Running LoadGen test...
+Done!
+Destroying SUT...
+Destroying QSL...
+Finished destroying SUT.
+Finished destroying QSL.
