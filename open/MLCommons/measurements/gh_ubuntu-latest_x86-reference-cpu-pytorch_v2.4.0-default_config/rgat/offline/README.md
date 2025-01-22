@@ -60,4 +60,4 @@ Model Precision: fp32
 `acc`: `75.0`, Required accuracy for closed division `>= 0.72131`
 
 ### Performance Results 
-`Samples per second`: `9.98644`
+`Samples per second`: `10.0813`
