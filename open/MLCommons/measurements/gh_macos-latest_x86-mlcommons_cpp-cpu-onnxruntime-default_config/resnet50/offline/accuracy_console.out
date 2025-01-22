@@ -1,0 +1,12 @@
+MLPerf Conf path: /Users/runner/CM/repos/local/cache/21ba40cb6ce644c7/inference/mlperf.conf
+User Conf path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/cmx4mlops/repo/script/generate-mlperf-inference-user-conf/tmp/606651c67b4a4840bb15f08f9f101fa5.conf
+Dataset Preprocessed path: /Users/runner/CM/repos/local/cache/1165786e33894d3c
+Dataset List filepath: 
+Scenario: Offline
+Mode: AccuracyOnly
+Batch size: 32
+Query count override: 0
+Performance sample count override in application: 0
+loaded imagenet with 500 samples
+starting benchmark
+loading samples to ram with total sample size: 500
