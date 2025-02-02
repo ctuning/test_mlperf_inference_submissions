@@ -1,15 +1,15 @@
 DeepSparse, Copyright 2021-present / Neuralmagic, Inc. version: 1.8.0 COMMUNITY | (e3778e93) (release) (optimized) (system=avx2, binary=avx2)
-[7f522343db80 >WARN<  operator() ./src/include/wand/utility/warnings.hpp:14] Generating emulated code for quantized (INT8) operations since no VNNI instructions were detected. Set NM_FAST_VNNI_EMULATION=1 to increase performance at the expense of accuracy.
-2025-02-02 15:38:00 deepsparse.utils.onnx INFO     Generating input 'input_ids', type = int64, shape = [1, 384]
-2025-02-02 15:38:00 deepsparse.utils.onnx INFO     Generating input 'attention_mask', type = int64, shape = [1, 384]
-2025-02-02 15:38:00 deepsparse.utils.onnx INFO     Generating input 'token_type_ids', type = int64, shape = [1, 384]
+[7f20b020cb80 >WARN<  operator() ./src/include/wand/utility/warnings.hpp:14] Generating emulated code for quantized (INT8) operations since no VNNI instructions were detected. Set NM_FAST_VNNI_EMULATION=1 to increase performance at the expense of accuracy.
+2025-02-02 17:37:04 deepsparse.utils.onnx INFO     Generating input 'input_ids', type = int64, shape = [1, 384]
+2025-02-02 17:37:04 deepsparse.utils.onnx INFO     Generating input 'attention_mask', type = int64, shape = [1, 384]
+2025-02-02 17:37:04 deepsparse.utils.onnx INFO     Generating input 'token_type_ids', type = int64, shape = [1, 384]
 ================================================
 MLPerf Results Summary
 ================================================
 SUT name : PySUT
 Scenario : Offline
 Mode     : PerformanceOnly
-Samples per second: 6.27418
+Samples per second: 6.30765
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
@@ -18,15 +18,15 @@ Result is : VALID
 ================================================
 Additional Stats
 ================================================
-Min latency (ns)                : 83133088
-Max latency (ns)                : 796916701
-Mean latency (ns)               : 401594237
-50.00 percentile latency (ns)   : 377175253
-90.00 percentile latency (ns)   : 796916701
-95.00 percentile latency (ns)   : 796916701
-97.00 percentile latency (ns)   : 796916701
-99.00 percentile latency (ns)   : 796916701
-99.90 percentile latency (ns)   : 796916701
+Min latency (ns)                : 82653845
+Max latency (ns)                : 792688188
+Mean latency (ns)               : 398346062
+50.00 percentile latency (ns)   : 372429885
+90.00 percentile latency (ns)   : 792688188
+95.00 percentile latency (ns)   : 792688188
+97.00 percentile latency (ns)   : 792688188
+99.00 percentile latency (ns)   : 792688188
+99.90 percentile latency (ns)   : 792688188
 
 ================================================
 Test Parameters Used
@@ -54,7 +54,7 @@ performance_sample_count : 10833
 No warnings encountered during test.
 
 2 ERRORS encountered. See detailed log.
-Loading ONNX model... /home/runner/CM/repos/local/cache/c35f958a6abc4426/oBERT-Large_95sparse_block4_qat.onnx
+Loading ONNX model... /home/runner/CM/repos/local/cache/cd8da9f6a38b4c52/oBERT-Large_95sparse_block4_qat.onnx
 Constructing SUT...
 Finished constructing SUT.
 Constructing QSL...
