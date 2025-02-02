@@ -2,7 +2,7 @@
 
 ## Host platform
 
-* OS version: Linux-6.8.0-1017-azure-x86_64-with-glibc2.39
+* OS version: Linux-6.8.0-1020-azure-x86_64-with-glibc2.39
 * CPU version: x86_64
 * Python version: 3.12.8 (main, Dec  4 2024, 06:20:31) [GCC 13.2.0]
 * MLCommons CM version: 3.5.3
@@ -57,7 +57,7 @@ Platform: gh_ubuntu-latest_x86-reference-cpu-pytorch_v2.4.0-default_config
 Model Precision: fp32
 
 ### Accuracy Results 
-`acc`: `75.0`, Required accuracy for closed division `>= 0.72131`
+`acc`: `74.2`, Required accuracy for closed division `>= 0.72131`
 
 ### Performance Results 
-`Samples per second`: `10.0813`
+`Samples per second`: `10.1421`
