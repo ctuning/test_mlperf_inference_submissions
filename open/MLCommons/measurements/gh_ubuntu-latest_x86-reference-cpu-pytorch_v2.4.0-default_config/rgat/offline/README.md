@@ -5,7 +5,7 @@
 * OS version: Linux-6.8.0-1020-azure-x86_64-with-glibc2.39
 * CPU version: x86_64
 * Python version: 3.12.8 (main, Dec  4 2024, 06:20:31) [GCC 13.2.0]
-* MLCommons CM version: 3.5.3
+* MLCommons CM version: 4.0.0
 
 ## CM Run Command
 
@@ -60,4 +60,4 @@ Model Precision: fp32
 `acc`: `75.8`, Required accuracy for closed division `>= 0.72131`
 
 ### Performance Results 
-`Samples per second`: `10.1755`
+`Samples per second`: `10.0281`
