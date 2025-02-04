@@ -5,7 +5,7 @@
 * OS version: macOS-14.7.2-arm64-arm-64bit
 * CPU version: arm
 * Python version: 3.12.8 (v3.12.8:2dc476bcb91, Dec  3 2024, 14:43:19) [Clang 13.0.0 (clang-1300.0.29.30)]
-* MLCommons CM version: 3.5.3
+* MLCommons CM version: 4.0.0
 
 ## CM Run Command
 
@@ -54,4 +54,4 @@ Model Precision: fp32
 `acc`: `76.0`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per second`: `9.35234`
+`Samples per second`: `7.87484`
