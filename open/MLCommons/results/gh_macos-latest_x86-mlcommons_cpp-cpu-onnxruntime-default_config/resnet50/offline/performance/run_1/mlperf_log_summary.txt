@@ -4,7 +4,7 @@ MLPerf Results Summary
 SUT name : QueueSUT
 Scenario : Offline
 Mode     : PerformanceOnly
-Samples per second: 8.01298
+Samples per second: 8.53876
 Result is : VALID
   Min duration satisfied : Yes
   Min queries satisfied : Yes
@@ -13,15 +13,15 @@ Result is : VALID
 ================================================
 Additional Stats
 ================================================
-Min latency (ns)                : 4094864625
-Max latency (ns)                : 62398773667
-Mean latency (ns)               : 33870366172
-50.00 percentile latency (ns)   : 32875946584
-90.00 percentile latency (ns)   : 57804350709
-95.00 percentile latency (ns)   : 62398773667
-97.00 percentile latency (ns)   : 62398773667
-99.00 percentile latency (ns)   : 62398773667
-99.90 percentile latency (ns)   : 62398773667
+Min latency (ns)                : 5107129625
+Max latency (ns)                : 58556489458
+Mean latency (ns)               : 32101515042
+50.00 percentile latency (ns)   : 31215853750
+90.00 percentile latency (ns)   : 54528368000
+95.00 percentile latency (ns)   : 58556489458
+97.00 percentile latency (ns)   : 58556489458
+99.00 percentile latency (ns)   : 58556489458
+99.90 percentile latency (ns)   : 58556489458
 
 ================================================
 Test Parameters Used
