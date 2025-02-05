@@ -1,12 +1,12 @@
 DeepSparse, Copyright 2021-present / Neuralmagic, Inc. version: 1.8.0 COMMUNITY | (e3778e93) (release) (optimized) (system=neon, binary=neon)
-2025-02-05 15:09:08 deepsparse.utils.onnx INFO     Generating input 'input_ids', type = int64, shape = [1, 384]
-2025-02-05 15:09:08 deepsparse.utils.onnx INFO     Generating input 'attention_mask', type = int64, shape = [1, 384]
-2025-02-05 15:09:08 deepsparse.utils.onnx INFO     Generating input 'token_type_ids', type = int64, shape = [1, 384]
+2025-02-05 15:33:35 deepsparse.utils.onnx INFO     Generating input 'input_ids', type = int64, shape = [1, 384]
+2025-02-05 15:33:35 deepsparse.utils.onnx INFO     Generating input 'attention_mask', type = int64, shape = [1, 384]
+2025-02-05 15:33:35 deepsparse.utils.onnx INFO     Generating input 'token_type_ids', type = int64, shape = [1, 384]
 
 No warnings encountered during test.
 
 2 ERRORS encountered. See detailed log.
-Loading ONNX model... /Users/runner/CM/repos/local/cache/d7c30220d6d24af0/oBERT-Large_95sparse_block4_qat.onnx
+Loading ONNX model... /Users/runner/CM/repos/local/cache/22dd4ae6ee6c443b/oBERT-Large_95sparse_block4_qat.onnx
 Constructing SUT...
 Finished constructing SUT.
 Constructing QSL...
