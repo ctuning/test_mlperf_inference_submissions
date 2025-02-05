@@ -2,7 +2,7 @@
   "pip_freeze": {
     "certifi": "2025.1.31",
     "charset-normalizer": "3.4.1",
-    "cmind": "3.5.3",
+    "cmind": "4.0.1",
     "cmx4mlops": "1.0.1",
     "dmiparser": "5.1",
     "flextask": "0.0.5",
