@@ -5,9 +5,9 @@
   "CM_HOST_OS_PACKAGE_MANAGER_INSTALL_CMD": "choco install -y",
   "CM_HOST_OS_PACKAGE_MANAGER_UPDATE_CMD": "choco upgrade -y",
   "CM_HOST_PYTHON_BITS": "64",
-  "CM_HOST_SYSTEM_NAME": "fv-az534-639",
+  "CM_HOST_SYSTEM_NAME": "fv-az521-368",
   "+PATH": [
-    "C:\\Users\\runneradmin\\CM\\repos\\local\\cache\\9ea49519b5834f8d\\bin",
+    "C:\\Users\\runneradmin\\CM\\repos\\local\\cache\\11a65dd2ce284e0f\\bin",
     "C:\\hostedtoolcache\\windows\\Python\\3.12.8\\x64\\Scripts"
   ]
 }

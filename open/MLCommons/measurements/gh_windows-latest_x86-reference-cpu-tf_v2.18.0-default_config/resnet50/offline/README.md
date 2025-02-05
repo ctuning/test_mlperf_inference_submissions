@@ -5,7 +5,7 @@
 * OS version: Windows-2022Server-10.0.20348-SP0
 * CPU version: AMD64 Family 25 Model 1 Stepping 1, AuthenticAMD
 * Python version: 3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]
-* MLCommons CM version: 4.0.0
+* MLCommons CM version: 4.0.1
 
 ## CM Run Command
 
@@ -55,4 +55,4 @@ Model Precision: fp32
 `acc`: `76.0`, Required accuracy for closed division `>= 75.6954`
 
 ### Performance Results 
-`Samples per second`: `21.5978`
+`Samples per second`: `21.2233`
